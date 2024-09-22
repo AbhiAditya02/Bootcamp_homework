@@ -1,0 +1,19 @@
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+
+.bulb {
+    width: 300px;
+    height: 600px;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.bulb_off:hover .bulb{
+    content: url('Bubl On 2.1.jpg');
+  
+}
